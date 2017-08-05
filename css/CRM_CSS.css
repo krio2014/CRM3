@@ -1,0 +1,36 @@
+html, body, .container-fluid, .row {
+    height: 100%;
+}
+
+.sidebar {
+  background-color: #0097A7;
+    border:solid;
+}
+@media (min-width: 992px) {
+.sidebar {
+    
+/*    position: fixed;*/
+    width:33.3333%;
+    min-width:33.3333%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: block;
+    background-color: #0097A7;
+  }
+}
+
+.topNavBar{
+/*    margin-left:240px;*/
+    width:100%;
+    min-width:100%;
+    color: #0097A7;
+}
+
+.myTog{
+    color:#0097A7;
+    background-color:#0097A7;
+    border-color:#0097A7;
+    
+}
