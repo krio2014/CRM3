@@ -24,29 +24,18 @@
     
 <div class="row">
     
-    <div class="col-sm-1 sidebar hidden-sm-down p-0" id="sideBarTog">
-        <div class="row">
-            
-            <div class="container-fluid p-3">
-                    <img src="images/placeholder.png" width="120px" height="120px">
-                
-            </div>
-            
-        
-        </div>            
-        
+    <div class="col-sm-1 sidebar hidden-sm-down" id="sideBarTog">
+                    
                         <ul class="navbar-nav flex-column hidden-sm-down">
-                            
                             <li class="nav-item">
-                                <a class="nav-link sidebarLink p-3" href="#">File<span class="sr-only">(current)</span></a>
+                                <a class="nav-link " href="#">New Case<span class="sr-only">(current)</span></a>
                             </li>
-                            
-                            <li class="nav-item sidebarLink">
-                                <a class="nav-link sidebarLink p-3 active" href="#">Marketing</a>
+                            <li class="nav-item active ">
+                                <a class="nav-link " href="#">as</a>
                             </li>
                         
-                            <li class="nav-item sidebarLink">
-                                <a class="nav-link sidebarLink p-3" href="logout.html">Reports</a>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="logout.html">Logout</a>
                             </li>
                         </ul>
                     
@@ -73,15 +62,13 @@
                     <div class="collapse navbar-collapse" id="topNavBarTog">
                         
                         
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav ">
                             <li class="nav-item ">
-                                <a class="nav-link " href="#">System Settings<span class="sr-only"></span></a>
+                                <a class="nav-link " href="#">New Case<span class="sr-only">(current)</span></a>
                             </li>
-<!--
                             <li class="nav-item active ">
-                                <a class="nav-link " href="#"></a>
+                                <a class="nav-link " href="#">as</a>
                             </li>
--->
                         
                             <li class="nav-item ">
                                 <a class="nav-link " href="logout.html">Logout</a>
