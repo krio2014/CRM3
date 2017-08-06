@@ -10,8 +10,10 @@ html, body, .container-fluid, .row {
 .sidebar {
     
 /*    position: fixed;*/
-    width:33.3333%;
-    min-width:33.3333%;
+/*    width:33.3333%;*/
+    border-radius:5px;
+    border-color:#006064;
+    min-width:15%;
     top: 0;
     left: 0;
     bottom: 0;
@@ -33,4 +35,29 @@ html, body, .container-fluid, .row {
     background-color:#0097A7;
     border-color:#0097A7;
     
+}
+
+a:link{
+    color:red;
+}
+
+.sidebarLink:link{
+    color:red;
+}
+
+.sidebarLink{
+        color:white;
+    border:solid;
+    border-width:1px;
+    border-color:#006064;
+    width:100%;
+}
+.sidebarLink:active{
+    
+    color:white;
+    border-color:red;
+    background-color:white;
+}
+.sidebarLink:hover{
+    background-color:white;
 }
